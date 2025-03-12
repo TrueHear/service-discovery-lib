@@ -1,0 +1,19 @@
+{
+  "name": "service-discovery-lib",
+  "version": "1.0.2",
+  "main": "index.js",
+  "scripts": {
+    "list_services": "node examples/example_list_services.js",
+    "list_servicesv1": "node examples/example_list_servicesv1.js",
+    "list_interfaces":"node examples/example_list_interfaces.js"
+  },
+  "keywords": [
+    "mdns",
+    "network",
+    "multicast",
+    "dns"
+  ],
+  "author": "sameerbk201",
+  "license": "ISC",
+  "description": "A reusable mDNS library with additional utility to list network interfaces."
+}
