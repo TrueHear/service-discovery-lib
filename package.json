@@ -1,11 +1,14 @@
 {
   "name": "service-discovery-lib",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
+  "bin": {
+    "smart-ip": "./cli/smart-ip-cli.js"
+  },
   "scripts": {
     "list_services": "node examples/example_list_services.js",
     "list_servicesv1": "node examples/example_list_servicesv1.js",
-    "list_interfaces":"node examples/example_list_interfaces.js"
+    "list_interfaces": "node examples/example_list_interfaces.js"
   },
   "keywords": [
     "mdns",
@@ -15,5 +18,10 @@
   ],
   "author": "sameerbk201",
   "license": "ISC",
-  "description": "A reusable mDNS library with additional utility to list network interfaces."
+  "description": "A reusable mDNS library with additional utility to list network interfaces.",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "inquirer": "^12.5.0",
+    "ora": "^8.2.0"
+  }
 }
