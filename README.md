@@ -203,6 +203,10 @@ An interactive CLI tool is provided in the `bin` directory as `smart-ip-cli.js`.
    smart-ip
    ```
 
+#### CLI Interface
+
+For detailed instructions on how to install and use the CLI tool globally, please see the [Smart IP CLI Interface Documentation](./CLI-Readme.md).
+
 ---
 
 ## API Documentation
